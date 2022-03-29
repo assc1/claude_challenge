@@ -1,0 +1,11 @@
+ec2_keypair: "comcast"
+ec2_security_group: "sg-0f1c461de14331d18"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-04505e74c0741db8d"
+ec2_subnet_ids: ['subnet-6412fd19','subnet-a40a5ce8','subnet-4263d229']
+ec2_region: "us-east-2"
+ec2_tag_Name: "Webserver"
+ec2_tag_Type: "webserver"
+ec2_tag_Environment: "production"
+ec2_volume_size: 16
+user_data: "{{ lookup('file', 'user-data.sh') }}"
