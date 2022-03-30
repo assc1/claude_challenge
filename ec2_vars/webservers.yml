@@ -1,7 +1,7 @@
 ec2_keypair: "comcast"
-ec2_security_group: "sg-0f1c461de14331d18"
+ec2_security_group: "sg-00d67230495800aa8"
 ec2_instance_type: "t2.micro"
-ec2_image: "ami-04505e74c0741db8d"
+ec2_image: "ami-0fb653ca2d3203ac1"
 ec2_subnet_ids: ['subnet-6412fd19','subnet-a40a5ce8','subnet-4263d229']
 ec2_region: "us-east-2"
 ec2_tag_Name: "Webserver"
